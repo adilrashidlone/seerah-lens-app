@@ -1,0 +1,322 @@
+[
+ {
+  "n": 1,
+  "ar": "الفاتحة",
+  "tr": "Al-Fatihah",
+  "en": "The Opener",
+  "type": "meccan",
+  "count": 7
+ },
+ {
+  "n": 18,
+  "ar": "الكهف",
+  "tr": "Al-Kahf",
+  "en": "The Cave",
+  "type": "meccan",
+  "count": 110
+ },
+ {
+  "n": 36,
+  "ar": "يس",
+  "tr": "Ya-Sin",
+  "en": "Ya Sin",
+  "type": "meccan",
+  "count": 83
+ },
+ {
+  "n": 78,
+  "ar": "النبإ",
+  "tr": "An-Naba",
+  "en": "The Tidings",
+  "type": "meccan",
+  "count": 40
+ },
+ {
+  "n": 79,
+  "ar": "النازعات",
+  "tr": "An-Nazi'at",
+  "en": "Those who drag forth",
+  "type": "meccan",
+  "count": 46
+ },
+ {
+  "n": 80,
+  "ar": "عبس",
+  "tr": "'Abasa",
+  "en": "He Frowned",
+  "type": "meccan",
+  "count": 42
+ },
+ {
+  "n": 81,
+  "ar": "التكوير",
+  "tr": "At-Takwir",
+  "en": "The Overthrowing",
+  "type": "meccan",
+  "count": 29
+ },
+ {
+  "n": 82,
+  "ar": "الإنفطار",
+  "tr": "Al-Infitar",
+  "en": "The Cleaving",
+  "type": "meccan",
+  "count": 19
+ },
+ {
+  "n": 83,
+  "ar": "المطففين",
+  "tr": "Al-Mutaffifin",
+  "en": "The Defrauding",
+  "type": "meccan",
+  "count": 36
+ },
+ {
+  "n": 84,
+  "ar": "الإنشقاق",
+  "tr": "Al-Inshiqaq",
+  "en": "The Sundering",
+  "type": "meccan",
+  "count": 25
+ },
+ {
+  "n": 85,
+  "ar": "البروج",
+  "tr": "Al-Buruj",
+  "en": "The Mansions of the Stars",
+  "type": "meccan",
+  "count": 22
+ },
+ {
+  "n": 86,
+  "ar": "الطارق",
+  "tr": "At-Tariq",
+  "en": "The Nightcommer",
+  "type": "meccan",
+  "count": 17
+ },
+ {
+  "n": 87,
+  "ar": "الأعلى",
+  "tr": "Al-A'la",
+  "en": "The Most High",
+  "type": "meccan",
+  "count": 19
+ },
+ {
+  "n": 88,
+  "ar": "الغاشية",
+  "tr": "Al-Ghashiyah",
+  "en": "The Overwhelming",
+  "type": "meccan",
+  "count": 26
+ },
+ {
+  "n": 89,
+  "ar": "الفجر",
+  "tr": "Al-Fajr",
+  "en": "The Dawn",
+  "type": "meccan",
+  "count": 30
+ },
+ {
+  "n": 90,
+  "ar": "البلد",
+  "tr": "Al-Balad",
+  "en": "The City",
+  "type": "meccan",
+  "count": 20
+ },
+ {
+  "n": 91,
+  "ar": "الشمس",
+  "tr": "Ash-Shams",
+  "en": "The Sun",
+  "type": "meccan",
+  "count": 15
+ },
+ {
+  "n": 92,
+  "ar": "الليل",
+  "tr": "Al-Layl",
+  "en": "The Night",
+  "type": "meccan",
+  "count": 21
+ },
+ {
+  "n": 93,
+  "ar": "الضحى",
+  "tr": "Ad-Duhaa",
+  "en": "The Morning Hours",
+  "type": "meccan",
+  "count": 11
+ },
+ {
+  "n": 94,
+  "ar": "الشرح",
+  "tr": "Ash-Sharh",
+  "en": "The Relief",
+  "type": "meccan",
+  "count": 8
+ },
+ {
+  "n": 95,
+  "ar": "التين",
+  "tr": "At-Tin",
+  "en": "The Fig",
+  "type": "meccan",
+  "count": 8
+ },
+ {
+  "n": 96,
+  "ar": "العلق",
+  "tr": "Al-'Alaq",
+  "en": "The Clot",
+  "type": "meccan",
+  "count": 19
+ },
+ {
+  "n": 97,
+  "ar": "القدر",
+  "tr": "Al-Qadr",
+  "en": "The Power",
+  "type": "meccan",
+  "count": 5
+ },
+ {
+  "n": 98,
+  "ar": "البينة",
+  "tr": "Al-Bayyinah",
+  "en": "The Clear Proof",
+  "type": "medinan",
+  "count": 8
+ },
+ {
+  "n": 99,
+  "ar": "الزلزلة",
+  "tr": "Az-Zalzalah",
+  "en": "The Earthquake",
+  "type": "medinan",
+  "count": 8
+ },
+ {
+  "n": 100,
+  "ar": "العاديات",
+  "tr": "Al-'Adiyat",
+  "en": "The Courser",
+  "type": "meccan",
+  "count": 11
+ },
+ {
+  "n": 101,
+  "ar": "القارعة",
+  "tr": "Al-Qari'ah",
+  "en": "The Calamity",
+  "type": "meccan",
+  "count": 11
+ },
+ {
+  "n": 102,
+  "ar": "التكاثر",
+  "tr": "At-Takathur",
+  "en": "The Rivalry in world increase",
+  "type": "meccan",
+  "count": 8
+ },
+ {
+  "n": 103,
+  "ar": "العصر",
+  "tr": "Al-'Asr",
+  "en": "The Declining Day",
+  "type": "meccan",
+  "count": 3
+ },
+ {
+  "n": 104,
+  "ar": "الهمزة",
+  "tr": "Al-Humazah",
+  "en": "The Traducer",
+  "type": "meccan",
+  "count": 9
+ },
+ {
+  "n": 105,
+  "ar": "الفيل",
+  "tr": "Al-Fil",
+  "en": "The Elephant",
+  "type": "meccan",
+  "count": 5
+ },
+ {
+  "n": 106,
+  "ar": "قريش",
+  "tr": "Quraysh",
+  "en": "Quraysh",
+  "type": "meccan",
+  "count": 4
+ },
+ {
+  "n": 107,
+  "ar": "الماعون",
+  "tr": "Al-Ma'un",
+  "en": "The Small kindnesses",
+  "type": "meccan",
+  "count": 7
+ },
+ {
+  "n": 108,
+  "ar": "الكوثر",
+  "tr": "Al-Kawthar",
+  "en": "The Abundance",
+  "type": "meccan",
+  "count": 3
+ },
+ {
+  "n": 109,
+  "ar": "الكافرون",
+  "tr": "Al-Kafirun",
+  "en": "The Disbelievers",
+  "type": "meccan",
+  "count": 6
+ },
+ {
+  "n": 110,
+  "ar": "النصر",
+  "tr": "An-Nasr",
+  "en": "The Divine Support",
+  "type": "medinan",
+  "count": 3
+ },
+ {
+  "n": 111,
+  "ar": "المسد",
+  "tr": "Al-Masad",
+  "en": "The Palm Fiber",
+  "type": "meccan",
+  "count": 5
+ },
+ {
+  "n": 112,
+  "ar": "الإخلاص",
+  "tr": "Al-Ikhlas",
+  "en": "The Sincerity",
+  "type": "meccan",
+  "count": 4
+ },
+ {
+  "n": 113,
+  "ar": "الفلق",
+  "tr": "Al-Falaq",
+  "en": "The Daybreak",
+  "type": "meccan",
+  "count": 5
+ },
+ {
+  "n": 114,
+  "ar": "الناس",
+  "tr": "An-Nas",
+  "en": "Mankind",
+  "type": "meccan",
+  "count": 6
+ }
+]

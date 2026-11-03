@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://adilrashidlone.github.io/seerah-lens-app/sitemap.xml
