@@ -52,7 +52,7 @@ Edit `data/content.json`. To publish a pending card, remove `"pending": true` an
 Add a block to `STR` in `src/app.js` with the same keys as `en`. The language button activates on its own. Quran meanings in Hindi, Urdu and Telugu need a licensed translation before they're added.
 
 ## Deploy
-Pushing to `main` deploys to GitHub Pages through `.github/workflows/deploy.yml`. Before the first push, set the repo's **Settings → Pages → Source** to **GitHub Actions**. When a custom domain is ready, set the repository variable `SITE_URL` so canonical tags and the sitemap point to it.
+Pushing to `main` builds the site and publishes it to the `gh-pages` branch through `.github/workflows/deploy.yml`. GitHub Pages serves that branch at https://adilrashidlone.github.io/seerah-lens-app/. When a custom domain is ready, set the repository variable `SITE_URL` so canonical tags and the sitemap point to it.
 
 **Play Store:** the same PWA can be wrapped as an Android app with a Trusted Web Activity (Bubblewrap / PWABuilder) once it's on its final domain.
 
