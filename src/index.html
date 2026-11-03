@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Seerah Lens: Read the Quran Daily and See It Lived in the Seerah</title>
+<meta name="description" content="A daily Quran reading app. Read a short portion, then see a moment from the life of the Prophet ﷺ that shows it revealed or lived, sourced and graded. Learn the words of your Salah. No ads, works offline.">
+<link rel="canonical" href="{{SITE_URL}}">
+<meta name="theme-color" content="#F4F6F3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111614" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Seerah Lens">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Seerah Lens: Read today. See it lived.">
+<meta property="og:description" content="Read the Quran daily and see each passage lived in the Seerah. No ads, ever.">
+<meta property="og:url" content="{{SITE_URL}}">
+<meta property="og:image" content="{{SITE_URL}}icons/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{{APP_JSONLD}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Noto+Naskh+Arabic:wght@400;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Instrument+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="app.css?v={{VERSION}}">
+</head>
+<body>
+<div class="offline" id="offline" hidden></div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="khatam" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6"><rect x="5" y="5" width="14" height="14"/><rect x="5" y="5" width="14" height="14" transform="rotate(45 12 12)"/><circle cx="12" cy="12" r="2.4"/></g></symbol>
+  <symbol id="i-today" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></g></symbol>
+  <symbol id="i-read" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M12 6c-2-1.5-5-2-8-1.5v14c3-.5 6 0 8 1.5 2-1.5 5-2 8-1.5v-14c-3-.5-6 0-8 1.5z"/><path d="M12 6v14"/></g></symbol>
+  <symbol id="i-salah" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h16"/><path d="M6 20V11a6 6 0 0 1 12 0v9"/><path d="M12 5V2"/><path d="M10 20v-4a2 2 0 0 1 4 0v4"/></g></symbol>
+  <symbol id="i-journal" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h11a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H6z"/><path d="M6 3v18M10 8h5M10 12h5"/></g></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 3l7 3v5c0 5-3.5 8-7 10-3.5-2-7-5-7-10V6z"/><path d="M9 12l2 2 4-4" stroke-linecap="round"/></g></symbol>
+<symbol id="i-gear" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></g></symbol></svg>
+<div class="app">
+  <header class="top">
+    <a class="brand" href="#today"><svg class="star"><use href="#khatam"/></svg><b>Seerah Lens</b></a>
+    <div class="top-right">
+      <span class="pill gold" id="streakPill" title="Days in a row, with one grace day a week">0 day streak</span>
+      <a class="iconbtn" href="#settings" aria-label="Settings"><svg width="18" height="18"><use href="#i-gear"/></svg></a>
+    </div>
+  </header>
+  <main id="view" class="view"><div class="skeleton"></div>
+    <noscript><div class="prose"><h1>Seerah Lens</h1><p>Read the Quran daily and see each passage lived in the Seerah. Seerah Lens needs JavaScript to run.</p><p>Read the surahs on the web:</p>{{NOSCRIPT_LINKS}}</div></noscript>
+  </main>
+</div>
+<div class="tabs" hidden><nav aria-label="Main">
+  <a href="#today" data-tab="today"><svg><use href="#i-today"/></svg>Today</a>
+  <a href="#plans" data-tab="days"><svg><use href="#i-read"/></svg>Read</a>
+  <a href="#salah" data-tab="salah"><svg><use href="#i-salah"/></svg>Salah</a>
+  <a href="#journal" data-tab="journal"><svg><use href="#i-journal"/></svg>Journal</a>
+</nav></div>
+<div class="toast" id="toast" hidden></div>
+<script src="app.js?v={{VERSION}}"></script>
+</body>
+</html>

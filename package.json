@@ -1,0 +1,17 @@
+{
+  "name": "seerah-lens-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Seerah Lens: read the Quran daily and see each passage lived in the Seerah. Offline-first PWA, no ads.",
+  "type": "module",
+  "scripts": {
+    "fetch-quran": "node scripts/fetch-quran.mjs",
+    "icons": "NODE_PATH=$(npm root -g) node scripts/make-icons.mjs",
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "test": "NODE_PATH=$(npm root -g) node scripts/smoke-test.mjs"
+  },
+  "devDependencies": {
+    "quran-json": "3.1.2"
+  }
+}
